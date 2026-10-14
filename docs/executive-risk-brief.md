@@ -1,0 +1,7 @@
+# Executive risk brief
+
+The lab showed that access restrictions can look reassuring while allowing unintended disclosure. Public storage grants exposed files; an analytics queue disclosed a useful link to a signed-in challenge identity; a notification policy accepted a destination outside its intended domain; and guest credentials could access data and assume a role named for authenticated users. Challenge 4's completion is documented, but its detailed test record is still pending. These are controlled training results, not findings against a healthcare organization.
+
+For a healthcare service, similar errors could allow people outside an approved workflow to discover documents, receive notifications, or obtain access intended for signed-in staff. This scenario assumes sensitive information is present; no real patient data was involved here. The most important management question is whether access follows a documented business need, not whether a role or bucket has a reassuring name.
+
+Recommended decision: prioritize review of public storage, guest roles, notification subscriptions and federation trust before placing confidential information in an equivalent production workflow. Assign data owners to define intended access, cloud engineers to implement controls, and a security reviewer to test both permitted and rejected requests. Retain independent closure evidence and track exceptions. These are proposed actions; the lab did not verify production controls, remediation effectiveness or residual risk.
