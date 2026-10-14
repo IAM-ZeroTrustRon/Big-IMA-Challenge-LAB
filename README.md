@@ -1,4 +1,4 @@
-# AWS IAM Risk Assessment — The Big IAM Challenge
+# Big IMA Challenge LAB
 
 **Ronald Richardson | Wiz Research CTF | Lab work documented October 14, 2026**
 
@@ -23,7 +23,7 @@ The certificate prints June 2023; the documented working session was October 14,
 | Cognito guest permissions | Obtained guest credentials and tested their S3 access |
 | Federated trust | Assumed the target authenticated-named role using a guest identity token and verified its separate resource access |
 
-## Read the portfolio
+## Lab documentation
 
 - [Executive risk brief](docs/executive-risk-brief.md): what the results mean for management and decisions to make.
 - [Findings and lessons](docs/findings-and-lessons.md): six distinct technical observations, with evidence boundaries.
