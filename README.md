@@ -1,4 +1,6 @@
-# Big IMA Challenge LAB
+# Big IAM Challenge Lab
+
+[Portfolio index](https://github.com/IAM-ZeroTrustRon/GRC-IAM-Portfolio) · **Repository role:** Authorized AWS security challenge.
 
 **Ronald Richardson | Wiz Research CTF | Lab work documented October 14, 2026**
 
